@@ -1,0 +1,122 @@
+# Publications
+
+## Peer Reviewed Journal Articles
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_pub}
+:::
+\endgroup
+
+
+
+## Book Reviews
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_reviews}
+:::
+\endgroup
+
+## Technical Reports
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_tech}
+:::
+\endgroup
+
+## Other Publications
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_other}
+:::
+\endgroup
+
+# Conference Papers and Presentations
+
+## International/National Conferences
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_conf_intl}
+:::
+\endgroup
+
+## Regional Conferences
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_conf_regional}
+:::
+\endgroup
+
+## Poster Presentations
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_conf_posters}
+:::
+\endgroup
+
+## Campus & Department Talks
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_conf_talks}
+:::
+\endgroup
+
+## Invited Talks
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_conf_invited}
+:::
+\endgroup
+
+# Professional Workshops, Webinars, and Trainings
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_conf_workshops}
+:::
+\endgroup
+
+# Other Section
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
+  select(category, markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", "")) %>%
+  pull(markdown) -> conf
+  cat(paste(conf), sep = '\n\n')
+
+```
+
+\endgroup

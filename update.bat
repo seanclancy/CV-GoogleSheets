@@ -1,5 +1,1 @@
-@echo off
-git add *
-git commit -m "Update"
-git push
-start https://jooyoungseo.github.io/jy_CV/JooYoung_Seo_CV.pdf
+"C:\Program Files\R\R-3.6.1\bin\Rscript.exe" "C:\Users\aschmidt\Dropbox (Personal)\Git\CV\CV_2\update_cv.R"

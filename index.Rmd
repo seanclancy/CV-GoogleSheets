@@ -1,30 +1,31 @@
 ---
 graphics: yes
-name: JooYoung
-surname: Seo
+name: Anthony
+surname: Schmidt
 #headcolor: 414141
 #qualifications: 
-position: "RStudio Summer Intern 2020; Ph.D. Candidate (ABD)"
-address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
-phone: "+1 814-777-5825"
-www: jooyoungseo.com
-email: "jooyoung@psu.edu"
-twitter: sjystu
-github: jooyoungseo
-linkedin: jooyoungseo
-aboutme: |
-  I am a learning scientist, software engineer, and internationally-certified accessibility professional.
+position: "PhD Student and Data Visualization Researcher"
+address: "2019 N. Park Blvd, Knoxville, TN, 37917"
+phone: "865-236-2940"
+www: anthonyschmidt.co
+email: "aschmi11@utk.edu"
+twitter: anthonyteacher
+github: acircleda
+aboutme:
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
-csl: "csl/apa7-cv.csl"
+csl: "csl/apa-cv.csl"
 nocite: "@*"
 knit: bookdown::render_book
-bibliography_selected: "bib/selected.bib"
-bibliography_journals: "bib/journal.bib"
-bibliography_proceedings: "bib/proceedings.bib"
-bibliography_healthcare: "bib/healthcare.bib"
-bibliography_working_paper: "bib/working_paper.bib"
-bibliography_R_packages: "bib/R_packages.bib"
-bibliography_github_projects: "bib/github.bib"
+bibliography_anthony_pub: "bib/anthony_pub.bib"
+bibliography_anthony_reviews: "bib/anthony_reviews.bib"
+bibliography_anthony_tech: "bib/anthony_techreports.bib"
+bibliography_anthony_other: "bib/anthony_other.bib"
+bibliography_anthony_conf_intl: "bib/anthony_conf_intl.bib"
+bibliography_anthony_conf_regional: "bib/anthony_conf_regional.bib"
+bibliography_anthony_conf_posters: "bib/anthony_conf_posters.bib"
+bibliography_anthony_conf_talks: "bib/anthony_conf_talks.bib"
+bibliography_anthony_conf_invited: "bib/anthony_conf_invited.bib"
+bibliography_anthony_conf_workshops: "bib/anthony_conf_invited.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
@@ -34,7 +35,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(RefManageR)
 RefManageR::BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
-           sorting = "",
+           sorting = "ydnt",
            cite.style = "alphabetic",
            style = "markdown",
 #           hyperlink = FALSE,
@@ -42,5 +43,6 @@ RefManageR::BibOptions(check.entries = FALSE,
 
 library(vitae)
 library(tidyverse)
-library(ezpickr)
+library(gsheet)
+library(gt)
 ```

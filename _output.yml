@@ -1,8 +1,9 @@
 #vitae::moderncv:
 #  theme: classic
+
 vitae::awesomecv:
-  fig_caption: yes
-  keep_tex: yes
+  keep_tex: no
+  
 #  keep_md: yes
 #  citation_package: "none"
 #  includes:
