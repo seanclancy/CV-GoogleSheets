@@ -48,7 +48,7 @@ gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXj
 
 gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
   filter(category=="regional") %>%
-  select(-category, -markdown_name, -markdown_date, -markdown) %>%
+  select(-category, -date, -month, -markdown_name, -markdown_date, -markdown) %>%
   RefManageR::as.BibEntry() %>%
   RefManageR::WriteBib("bib/anthony_conf_regional.bib", biblatex=T)
 

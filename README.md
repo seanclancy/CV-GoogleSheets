@@ -35,3 +35,5 @@ The CV is not perfect. Here are several issues I have encountered and either fou
   * CV Skills Section
     + In the layout designed by JooYoung (I think), the Skills section is hardcoded into the LaTeX template. This is not a problem if I want to only use the `awesomecv` template, however there are aspects of the `hyndman` template I like. I tried to include the relevant LaTeX in the `hyndman` template, but could not get it to work.
       + As a workaround, I recreated to look at feel of the section using the `gt` package, and while it looks beautiful in Markdown, it does not render as nicely as a PDF, so I will hold off until I find a better solution.
+      
+      
