@@ -1,20 +1,40 @@
+---
+title: "README"
+output: github_document
+---
 
-# JooYoung Seo's Academic CV
+This repo is for my reproducible CV, built following [JooYoung Seo's Academic CV](https://github.com/jooyoungseo/jy_CV). It primarily used `vitae`, `bookdown`, and `gsheet` to build the CV.
 
-## Enhancements Compared to the default `vitae` package:
+## CV Data
 
-* Styling your publications using given csl file in `YAML`.
-* Printing as many bibliographic sections and corresponding entries as you want in your CV (e.g., journal publication, conference proceedings, software release, etc. etc.).
-* Highlighting your name in printed bib entries using bold format (see and change the content in `lua/strong.lua`).
-* Easily managing your CV following `bookdown` style (e.g., each separate Rmd file according to their own categories like chapters).
+All CV data is stored in a GoogleSheet. Various tabs are pulled into the CV using `gsheet` and further filtered, if needed. They are mostly converted to .bib files using `RefManageR` or vectorized and included as `markdown`.
 
+## Primary Files and Folders
 
-## Descriptions
+  * `bib` - This folder contains the .bib files generated from GoogleSheets. These form the various bibliographies used throughout the CV.
+  * `docs` - This folder contains the main sections of the CV. Each section has its own markdown file.
+  
+## Updating the CV
 
-This repo has been created to systematically manage my academic CV. This is reproducible for those who have basic knowledge of R and R Markdown.
+All updates to the data happen in the GoogleSheet. When ready to update the CV, I run the commands stored in `update_cv.R`:
 
-Based on [vitae package](https://github.com/mitchelloharawild/vitae/), I have extended its capabilities to include multiple bibliographic entries using [multiple-bibliographies lua filter](https://github.com/pandoc/lua-filters/blob/master/multiple-bibliographies/multiple-bibliographies.lua) so that I can print my scientific records in [APA_CV style](https://github.com/citation-style-language/styles/blob/master/apa-cv.csl).
+```
+source("update_bib.R")
+bookdown::render_book("index.Rmd")
+```
 
-Following my template, you would be able to print as many bib-entries as you want using your desired csl file and your `*.bib` files.
+The first line, `source("update_bib.R")` pulls the latest data from GoogleSheets and updates the .bib files. The second line, `bookdown::render_book("index.Rmd")` knits everything together and produces a PDF.
 
-Anyone who would like to get a hint on how I have managed [this CV](https://jooyoungseo.github.io/jy_CV/JooYoung_Seo_CV.pdf) can fork this repo to make their own.
+## Issues
+
+The CV is not perfect. Here are several issues I have encountered and either found a workaround or not solved *yet*:
+
+  * No (Year, Month) format for many entries.
+    + I have found that a number of entries, especially technical reports and conferences, do not easily show (Year, Month) date formats required by APA 7. If I do include these (as a `date` field in the .bib files), the listings become out of order. I have developed two workaround:
+      1. Ignore the (Year, Month) conventions. This is currently my default.
+      2. Import these references already written out in the Excel file. This requires a little bit more work, but is easily done. Each reference is on a row, made from columns already used for the .bib files as well as some fancy use of Excel/GoogleSheet's `concatenate` function. This works well, but I feel it is cheating, especially since my CV is mostly conferences right now and I want them to be "legitamtely" produced through `biblatex` and not my own encoding.
+  * One long url.
+    + Apparently, there is a URL that is too long and runs off the page a bit before a line break puts the rest on the next line. I will need to see how to change the LaTex rules on how this is controlled. My only workaround right now is to ignore the issue.
+  * CV Skills Section.
+    + In the layout designed by JooYoung (I think), the Skills section is hardcoded into the LaTeX template. This is not a problem if I want to only use the `awesomecv` template, however there are aspects of the `hyndman` template I like. I tried to include the relevant LaTeX in the `hyndman` template, but could not get it to work.
+      + As a workaround, I recreated to look at feel of the section using the `gt` package, and while it looks beautiful in Markdown, it does not render as nicely as a PDF, so I will hold off until I find a better solution.
