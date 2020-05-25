@@ -104,19 +104,18 @@
 :::
 \endgroup
 
-# Other Section
+<!-- Alt conference display -->
+<!-- \begingroup -->
+<!-- \setlength{\parindent}{-0.5in} -->
+<!-- \setlength{\leftskip}{0.5in} -->
 
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+<!-- ```{r results='asis'} -->
+<!-- gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>% -->
+<!--   select(category, markdown) %>% -->
+<!--   mutate(markdown = str_replace_all(markdown, "\\{|\\}", "")) %>% -->
+<!--   pull(markdown) -> conf -->
+<!--   cat(paste(conf), sep = '\n\n') -->
 
-```{r results='asis'}
-gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
-  select(category, markdown) %>%
-  mutate(markdown = str_replace_all(markdown, "\\{|\\}", "")) %>%
-  pull(markdown) -> conf
-  cat(paste(conf), sep = '\n\n')
+<!-- ``` -->
 
-```
-
-\endgroup
+<!-- \endgroup -->
