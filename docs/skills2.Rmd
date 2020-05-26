@@ -2,30 +2,9 @@
 
 <!-- have to add \usepackage{caption} to hyndman template -->
 
-```{r results='hold'}
+```{r message=FALSE, warning=FALSE, results='asis'}
 gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=885656894") %>%
   mutate(category = paste0("**",category,"**")) %>%
-  gt() %>%
-  tab_options(
-    column_labels.hidden = TRUE
-  ) %>%
-    cols_align(
-    align = "right",
-    columns = vars(category)
-  ) %>%
-  fmt_markdown(
-    columns = vars(category)
-  ) %>%
-  tab_style(
-      style = cell_borders(
-        sides = "all",
-        color = NULL,
-        weight = NULL,
-        style = "solid"
-      ),
-      locations = cells_body(
-        columns = everything(),
-        rows = everything()
-      )
-  )
+  knitr::kable(col.names = NULL, align=c("r","l")) %>%
+  kableExtra::row_spec(row=2, extra_latex_after = "\\arrayrulecolor{white}")
 ```
