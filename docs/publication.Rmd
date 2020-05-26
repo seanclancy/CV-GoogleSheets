@@ -94,7 +94,7 @@
 :::
 \endgroup
 
-# Professional Workshops, Webinars, and Trainings
+## Professional Workshops, Webinars, and Trainings
 
 \begingroup
 \setlength{\parindent}{-0.5in}

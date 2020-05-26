@@ -1,3 +1,4 @@
+## [Check out the CV](https://github.com/acircleda/CV/blob/master/hyndman/Anthony_Schmidt_CV_hyndman.pdf)
 
 This repo is for my reproducible CV, built following [JooYoung Seo's Academic CV](https://github.com/jooyoungseo/jy_CV). It primarily uses `vitae`, `bookdown`, and `gsheet` to build the CV.
 
@@ -11,7 +12,7 @@ All CV data is stored in a [GoogleSheet](https://docs.google.com/spreadsheets/d/
   * `docs` - This folder contains the main sections of the CV. Each section has its own markdown file.
   * `hyndman` - For rendering the `hyndman` version. I have modified the template stored in the `vitae` library folder. A copy is included in here until I figure out how to point to it.
     + I changed the bullet type and colored it by the headcolor. I also added a package to support tables.
-    + The `_bookdown.yml` file points to a different file to generate the skills section, as I could not insert the LaTeX formatting for this section from Awesome-CV into Hyndman. This will eventually point to several different files that render `vitae`'s brief entires (`with`, `what`, `when`, `where`, `why`) differently and thus the data coming from Google needs to be assigned differently.
+    + The `_bookdown.yml` file points to a different file to generate the skills section, as I could not insert the LaTeX formatting for this section from Awesome-CV into Hyndman. This will eventually point to several different files that render `vitae`'s detailed entries (`with`, `what`, `when`, `where`, `why`) differently and thus the data coming from Google needs to be assigned differently.
   
 ## Updating the CV
 
@@ -40,5 +41,8 @@ The CV is not perfect. Here are several issues I have encountered and either fou
     + In the layout designed by JooYoung (I think), the Skills section is hardcoded into the LaTeX template. This is not a problem if I want to only use the `awesomecv` template, however there are aspects of the `hyndman` template I like. I tried to include the relevant LaTeX in the `hyndman` template, but could not get it to work.
       + As a workaround, I recreated to look at feel of the section using the `kable` and `kabelExtra` packages. That works nicely.
 
-## [Check out the CV](https://github.com/acircleda/CV/blob/master/Anthony_Schmidt_CV.pdf)
+### [CV: Hyndman Version](https://github.com/acircleda/CV/blob/master/hyndman/Anthony_Schmidt_CV_hyndman.pdf)
+
+### [CV: Awesome-CV Version](https://github.com/acircleda/CV/blob/master/Anthony_Schmidt_CV.pdf)
+
 
