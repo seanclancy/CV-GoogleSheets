@@ -2,8 +2,8 @@
 
 ```{r working-experience}
 gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1554751840") %>%
-  vitae::detailed_entries(with = title, 
+  vitae::detailed_entries(what = title, 
                           when = date, 
-                          what = institution, 
-                          where = location)
+                          where = institution, 
+                          with = location)
 ```

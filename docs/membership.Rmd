@@ -6,3 +6,4 @@ membership <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69p
   cat(paste('-', membership), sep = '\n')
 
 ```
+

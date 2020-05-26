@@ -2,11 +2,11 @@
 graphics: yes
 name: Anthony
 surname: Schmidt
-headcolor: 01416f
+#headcolor: 01416f
 #qualifications: 
 position: "PhD Student and Data Visualization Researcher"
-address: "2019 N. Park Blvd, Knoxville, TN, 37917"
-phone: "865-236-2940"
+#address: "2019 N. Park Blvd, Knoxville, TN, 37917"
+#phone: "865-236-2940"
 www: anthonyschmidt.co
 email: "aschmi11@utk.edu"
 twitter: anthonyteacher
@@ -25,7 +25,7 @@ bibliography_anthony_conf_regional: "bib/anthony_conf_regional.bib"
 bibliography_anthony_conf_posters: "bib/anthony_conf_posters.bib"
 bibliography_anthony_conf_talks: "bib/anthony_conf_talks.bib"
 bibliography_anthony_conf_invited: "bib/anthony_conf_invited.bib"
-bibliography_anthony_conf_workshops: "bib/anthony_conf_invited.bib"
+bibliography_anthony_conf_workshops: "bib/anthony_conf_workshops.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
