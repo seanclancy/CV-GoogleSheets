@@ -9,6 +9,9 @@ All CV data is stored in a [GoogleSheet](https://docs.google.com/spreadsheets/d/
 
   * `bib` - This folder contains the .bib files generated from GoogleSheets. These form the various bibliographies used throughout the CV.
   * `docs` - This folder contains the main sections of the CV. Each section has its own markdown file.
+  * `hyndman` - For rendering the `hyndman` version. I have modified the template stored in the `vitae` library folder. A copy is included in here until I figure out how to point to it.
+    + I changed the bullet type and colored it by the headcolor. I also added a package to support tables.
+    + The `_bookdown.yml` file points to a different file to generate the skills section, as I could not insert the LaTeX formatting for this section from Awesome-CV into Hyndman. This will eventually point to several different files that render `vitae`'s brief entires (`with`, `what`, `when`, `where`, `why`) differently and thus the data coming from Google needs to be assigned differently.
   
 ## Updating the CV
 
@@ -17,9 +20,10 @@ All updates to the data happen in the GoogleSheet. When ready to update the CV, 
 ```
 source("update_bib.R")
 bookdown::render_book("index.Rmd")
+bookdown::render_book("hyndman/index.Rmd")
 ```
 
-The first line, `source("update_bib.R")` pulls the latest data from GoogleSheets and updates the .bib files. The second line, `bookdown::render_book("index.Rmd")` knits everything together and produces a PDF.
+The first line, `source("update_bib.R")` pulls the latest data from GoogleSheets and updates the .bib files. The second line, `bookdown::render_book("index.Rmd")` knits everything together and produces a PDF with the Awesome-CV format. Likewise, `bookdown::render_book("hyndman/index.Rmd")` creates a CV following the Hyndman format plus my changes.
 
 ## Issues
 
@@ -31,15 +35,10 @@ The CV is not perfect. Here are several issues I have encountered and either fou
       2. Import these references already written out in the Excel file. This requires a little bit more work, but is easily done. Each reference is on a row, made from columns already used for the .bib files as well as some fancy use of Excel/GoogleSheet's `concatenate` function. This works well, but I feel it is cheating, especially since my CV is mostly conferences right now and I want them to be "legitamtely" produced through `biblatex` and not my own encoding.
       3. Include the (Year, Month) via the `date` field and add a macro to the .CSL file to control how they are sorted. I do not know how to do this.
   * One long url
-    + Apparently, there is a URL that is too long and runs off the page a bit before a line break puts the rest on the next line. I will need to see how to change the LaTex rules on how this is controlled. My only workaround right now is to ignore the issue.
+    + Apparently, there is a URL that is too long and runs off the page a bit before a line break puts the rest on the next line. I will need to see how to change the LaTex rules on how this is controlled. My only workaround right now is to ignore the issue. The Hyndman format does not have this issue.
   * CV Skills Section
     + In the layout designed by JooYoung (I think), the Skills section is hardcoded into the LaTeX template. This is not a problem if I want to only use the `awesomecv` template, however there are aspects of the `hyndman` template I like. I tried to include the relevant LaTeX in the `hyndman` template, but could not get it to work.
-      + As a workaround, I recreated to look at feel of the section using the `gt` package, and while it looks beautiful in Markdown, it does not render as nicely as a PDF, so I will hold off until I find a better solution.
-<<<<<<< HEAD
+      + As a workaround, I recreated to look at feel of the section using the `kable` and `kabelExtra` packages. That works nicely.
 
 ## [Check out the CV](https://github.com/acircleda/CV/blob/master/Anthony_Schmidt_CV.pdf)
-      
-=======
-      
-## [Check out the CV](https://github.com/acircleda/CV/blob/master/Anthony_Schmidt_CV.pdf)
->>>>>>> 0a59f5a155a834e02231812506a78e572bde5f5e
+
