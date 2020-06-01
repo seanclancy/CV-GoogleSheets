@@ -5,7 +5,9 @@
 <!-- have to add \usepackage{caption} to hyndman template -->
 ```{r message=FALSE, warning=FALSE, results='asis'}
 gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=885656894") %>%
-  mutate(category = paste0("**",category,"**")) %>%
+  mutate(category = paste0("**",category,"**"),
+         category = ifelse(category == "**NA**", " ", category
+         )) %>%
   knitr::kable(col.names = NULL, align=c("r","l")) %>%
   kableExtra::row_spec(row=2, extra_latex_after = "\\arrayrulecolor{white}")
 ```
