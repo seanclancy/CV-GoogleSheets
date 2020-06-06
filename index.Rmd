@@ -5,8 +5,8 @@ surname: Schmidt
 #headcolor: 01416f
 #qualifications: 
 position: "PhD Student and Data Visualization Researcher"
-#address: "2019 N. Park Blvd, Knoxville, TN, 37917"
-#phone: "865-236-2940"
+#address: ""
+#phone: ""
 www: anthonyschmidt.co
 email: "aschmi11@utk.edu"
 twitter: anthonyteacher

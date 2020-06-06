@@ -1,0 +1,373 @@
+---
+graphics: yes
+name: Anthony
+surname: Schmidt
+headcolor: 01416f
+#qualifications: 
+position: "PhD Student and Data Visualization Researcher"
+#address: ""
+#phone: ""
+www: anthonyschmidt.co
+email: "aschmi11@utk.edu"
+twitter: anthonyteacher
+github: acircleda
+aboutme:
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+csl: "../csl/apa-cv.csl"
+nocite: "@*"
+knit: bookdown::render_book
+bibliography_anthony_pub: "../bib/anthony_pub.bib"
+bibliography_anthony_reviews: "../bib/anthony_reviews.bib"
+bibliography_anthony_tech: "../bib/anthony_techreports.bib"
+bibliography_anthony_other: "../bib/anthony_other.bib"
+bibliography_anthony_conf_intl: "../bib/anthony_conf_intl.bib"
+bibliography_anthony_conf_regional: "../bib/anthony_conf_regional.bib"
+bibliography_anthony_conf_posters: "../bib/anthony_conf_posters.bib"
+bibliography_anthony_conf_talks: "../bib/anthony_conf_talks.bib"
+bibliography_anthony_conf_invited: "../bib/anthony_conf_invited.bib"
+bibliography_anthony_conf_workshops: "../bib/anthony_conf_workshops.bib"
+header-includes:
+  - \usepackage{colortbl}
+  - \arrayrulecolor{white}
+---
+
+```{r setup, include=FALSE, cache = FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+library(RefManageR)
+RefManageR::BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           sorting = "ydnt",
+           cite.style = "alphabetic",
+           style = "markdown",
+#           hyperlink = FALSE,
+           dashed = FALSE)
+
+library(vitae)
+library(tidyverse)
+library(gsheet)
+library(gt)
+```
+
+<!--chapter:end:index.Rmd-->
+
+# Education
+
+```{r education}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1760172285") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what = Degree,
+                          when = Year,
+                          where = Institution, 
+                          with = Location, 
+                          why)
+```
+
+<!--chapter:end:../docs/education-hyndman.Rmd-->
+
+# Professional Appointments
+
+```{r working-experience}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1554751840") %>%
+  vitae::detailed_entries(what = title, 
+                          when = date, 
+                          where = institution, 
+                          with = location)
+```
+
+<!--chapter:end:../docs/working_exp-hyndman.Rmd-->
+
+# Publications
+
+## Peer Reviewed Journal Articles
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_pub}
+:::
+\endgroup
+
+
+## Book Reviews
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_reviews}
+:::
+\endgroup
+
+## Technical Reports
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<!-- BibLaTeX Method (currently not working) -->
+<!-- ::: {#refs_anthony_tech} -->
+<!-- ::: -->
+
+```{r results='asis'}
+gsheet2tbl("hhttps://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1473597883") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
+  pull(markdown) -> tr
+  cat(paste(tr), sep = '\n\n')
+
+```
+
+\endgroup
+
+## Other Publications
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_anthony_other}
+:::
+\endgroup
+
+# Conference Papers and Presentations
+
+## International/National Conferences
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<!-- ::: {#refs_anthony_conf_intl} -->
+<!-- ::: -->
+
+```{r results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
+  filter(category == "intl") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
+  pull(markdown) -> intl
+  cat(paste(intl), sep = '\n\n')
+
+```
+
+\endgroup
+
+## Regional Conferences
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<!-- ::: {#refs_anthony_conf_regional} -->
+<!-- ::: -->
+
+```{r results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
+  filter(category == "regional") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
+  pull(markdown) -> regional
+  cat(paste(regional), sep = '\n\n')
+
+```
+
+\endgroup
+
+## Poster Presentations
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<!-- ::: {#refs_anthony_conf_posters} -->
+<!-- ::: -->
+
+```{r results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
+  filter(category == "poster") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
+  pull(markdown) -> poster
+  cat(paste(poster), sep = '\n\n')
+
+```
+
+
+\endgroup
+
+## Campus & Department Talks
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<!-- ::: {#refs_anthony_conf_talks} -->
+<!-- ::: -->
+
+
+```{r results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
+  filter(category == "campus talk") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
+  pull(markdown) -> campus
+  cat(paste(campus), sep = '\n\n')
+
+```
+
+
+\endgroup
+
+## Invited Talks
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<!-- ::: {#refs_anthony_conf_invited} -->
+<!-- ::: -->
+
+
+```{r results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
+  filter(category == "invited") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
+  pull(markdown) -> invited
+  cat(paste(invited), sep = '\n\n')
+
+```
+
+
+\endgroup
+
+## Professional Workshops, Webinars, and Trainings
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<!-- ::: {#refs_anthony_conf_workshops} -->
+<!-- ::: -->
+
+```{r results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=318960497") %>%
+  filter(category == "workshops") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
+  pull(markdown) -> workshops
+  cat(paste(workshops), sep = '\n\n')
+
+```
+
+
+\endgroup
+
+<!--chapter:end:../docs/publication.Rmd-->
+
+# Research and Evaluation Experience
+
+```{r research-experience}
+library(tidyverse)
+library(gsheet)
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=144487203") %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(what = project,
+                          when = date,
+                          where = institution,
+                          why = details)
+```
+
+<!--chapter:end:../docs/research_exp-hyndman.Rmd-->
+
+# Teaching Experience
+```{r teaching-experience}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=802976282") %>%
+  filter(category=="teaching") %>%
+  select(-category) %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(where = title, when = dates, what = school, with = location, details)
+```
+
+
+# Other Teaching Experience
+
+```{r other-teaching-experience}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=802976282") %>%
+  filter(category=="other teaching") %>%
+  select(-category) %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(where = title, when = dates, what = school, with = location, details)
+```
+
+# Teacher Training Experience
+
+```{r teacher-training-experience}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=802976282") %>%
+  filter(category=="teacher training") %>%
+  select(-category) %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(where = title, when = dates, what = school, with = location, details)
+```
+
+<!--chapter:end:../docs/teaching_exp-hyndman.Rmd-->
+
+# Awards and Honors
+
+```{r award}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1320047315") %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(where = organization,
+                          when = date,
+                          what = award_name,
+                          with = details)
+```
+
+<!--chapter:end:../docs/award-hyndman.Rmd-->
+
+# Current Memberships
+
+```{r results='asis'}
+membership <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1398743395") %>%
+    pull(organization)
+  cat(paste('-', membership), sep = '\n')
+
+```
+
+
+<!--chapter:end:../docs/membership.Rmd-->
+
+\leavevmode\newline
+
+# Skills
+\vspace*{-\baselineskip}
+<!-- have to add \usepackage{caption} to hyndman template -->
+```{r message=FALSE, warning=FALSE, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=885656894") %>%
+  mutate(category = paste0("**",category,"**"),
+         category = ifelse(category == "**NA**", " ", category
+         )) %>%
+  knitr::kable(col.names = NULL, align=c("r","l")) %>%
+  kableExtra::row_spec(row=2, extra_latex_after = "\\arrayrulecolor{white}")
+```
+
+<!--chapter:end:../docs/skills-hyndman.Rmd-->
+
+# Notes
+
+This CV is reproducible. All the source code behind this CV is available on [my GitHub repo](https://github.com/acircleda/CV){target="_blank"}.
+
+\
+
+<!--chapter:end:../docs/backmatter.Rmd-->
+
