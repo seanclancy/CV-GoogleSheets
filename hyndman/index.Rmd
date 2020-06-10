@@ -29,6 +29,7 @@ bibliography_anthony_conf_workshops: "../bib/anthony_conf_workshops.bib"
 header-includes:
   - \usepackage{colortbl}
   - \arrayrulecolor{white}
+  - \usepackage{caption}
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}

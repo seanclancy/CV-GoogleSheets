@@ -11,7 +11,6 @@
 \endgroup
 
 
-
 ## Book Reviews
 
 \begingroup
@@ -33,7 +32,7 @@
 <!-- ::: -->
 
 ```{r results='asis'}
-gsheet2tbl("hhttps://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1473597883") %>%
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1473597883") %>%
   select(markdown) %>%
   mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
          markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
