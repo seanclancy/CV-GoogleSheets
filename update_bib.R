@@ -13,6 +13,14 @@ gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXj
   RefManageR::as.BibEntry() %>% 
   RefManageR::WriteBib("bib/anthony_pub.bib", biblatex=T)
 
+# ## Pre-Prints ----
+
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=0") %>%
+  filter(category=="preprint") %>%
+  select(-category) %>%
+  RefManageR::as.BibEntry() %>%
+  RefManageR::WriteBib("bib/anthony_preprint.bib", biblatex=T)
+
 ## Book Reviews ----
 
 gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=0") %>%

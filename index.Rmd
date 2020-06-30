@@ -17,6 +17,7 @@ csl: "csl/apa-cv.csl"
 nocite: "@*"
 knit: bookdown::render_book
 bibliography_anthony_pub: "bib/anthony_pub.bib"
+bibliography_anthony_preprints: "bib/anthony_preprint.bib"
 bibliography_anthony_reviews: "bib/anthony_reviews.bib"
 bibliography_anthony_tech: "bib/anthony_techreports.bib"
 bibliography_anthony_other: "bib/anthony_other.bib"
