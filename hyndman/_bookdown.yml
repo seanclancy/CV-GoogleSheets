@@ -10,5 +10,5 @@ rmd_files:
   - "../docs/membership.Rmd"
   - "../docs/skills-hyndman.Rmd"
   - "../docs/backmatter.Rmd"
-book_filename: "Anthony_Schmidt_CV_hyndman"
+book_filename: "Anthony_Schmidt_CV"
 delete_merged_file: true

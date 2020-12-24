@@ -10,7 +10,7 @@
 :::
 \endgroup
 
-## Pre-Prints
+## Pre-Prints and Unpublished Manuscripts
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -206,6 +206,25 @@ gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXj
          markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
   pull(markdown) -> workshops
   cat(paste(workshops), sep = '\n\n')
+
+```
+
+
+\endgroup
+
+# Software
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1692561333") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Schmidt, A.", "**Schmidt, A.**")) %>%
+  pull(markdown) -> software
+  cat(paste(software), sep = '\n\n')
 
 ```
 
