@@ -6,13 +6,14 @@ headcolor: 01416f
 position: "Data Science & Applied Research"
 www: anthonyschmidt.co
 email: "aschmi11@utk.edu"
-twitter: anthonyteacher
-github: acircled
+#twitter: anthonyteacher
+github: acircleda
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::hyndman
 header-includes:
   - \definecolor{linkscolor}{HTML}{026dbb}
   - \usepackage{caption}
+  - \usepackage{hyperref}
   - \usepackage{colortbl}
   - \arrayrulecolor{white}
   - \hypersetup{colorlinks=true, linkcolor=linkscolor, filecolor=linkscolor, urlcolor=linkscolor, urlbordercolor=linkscolor}
@@ -36,7 +37,8 @@ gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXj
                           when = Year,
                           where = Institution, 
                           with = Location, 
-                          why)
+                          why,
+                          .protect = FALSE)
 ```
 
 
@@ -279,8 +281,29 @@ gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXj
 \endgroup
 \leavevmode\newline
 
+# Industry Research Experience
 
-# Research and Evaluation Experience
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r industry-exp}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=1697117161") %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(what = project,
+                          when = date,
+                          where = institution,
+                          why = details)
+```
+
+\endgroup
+\leavevmode\newline
+
+# Graduate Research Experience
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
 
 ```{r research-experience}
 library(tidyverse)
@@ -290,9 +313,11 @@ gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXj
   vitae::detailed_entries(what = project,
                           when = date,
                           where = institution,
-                          why = details)
+                          why = details,
+                          .protect = FALSE)
 ```
-
+\endgroup
+\leavevmode\newline
 
 # Teaching Experience
 
@@ -340,7 +365,6 @@ gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXj
 
 # Skills
 
-\vspace*{-\baselineskip}
 
 ```{r skills, message=FALSE, warning=FALSE}
 gsheet2tbl("https://docs.google.com/spreadsheets/d/1qbMpXHXm41q69prUVjpQFfP_mMXjORNxFP_IbAoCuKo/edit#gid=885656894") %>%
