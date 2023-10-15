@@ -1,0 +1,271 @@
+---
+graphics: yes
+name: Sean Owen
+surname: Clancy, Ph.D.
+headcolor: 01416f
+position: "Leader, Scientist, Technology Developer, Problem Solver"
+www: seanclancy.org
+email: "me@seanclancy.org"
+#twitter: seanclancy
+github: seanclancy
+linkedin: seanclancy
+orcid: 0000-0002-3560-1469
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+header-includes:
+  - \definecolor{linkscolor}{HTML}{026dbb}
+  - \usepackage{caption}
+  - \usepackage{hyperref}
+  - \usepackage{colortbl}
+  - \arrayrulecolor{white}
+  - \hyphenpenalty=10000
+  - \exhyphenpenalty=10000
+  - \hypersetup{colorlinks=true, linkcolor=linkscolor, filecolor=linkscolor, urlcolor=linkscolor, urlbordercolor=linkscolor}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(gsheet)
+library(gt)
+library(flextable)
+```
+
+-	\textbf{Engineering, Laboratory, Personnel, Project, and Program Management:} Experienced leader, people manager, and scientist with a strong background in data and instrumental analysis, materials science and engineering, and product and process creation, while leveraging expertise in interdepartmental communication, data-driven decisions, and problem-solving.
+-	\textbf{High-Temperature Electronics:} Managed DoD manufacturing technology development projects involving silicon carbide (SiC) and other wide-band gap semiconductors, along with supplemental materials, including high-voltage encapsulation and packaging.   
+-	\textbf{Applied Research and Engineering Development:} Developed materials for a wide range of applications. Materials and equipment selection, process development, experimental design, failure analysis, and characterization of coatings for reliability enhancement and risk reduction on electronics and other products. Fixture and tooling design with rapid prototyping using additive manufacturing (3D printing), laser cutting, and machining. 
+
+# Education
+
+```{r education}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit#gid=1760172285") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what = Degree,
+                          when = Year,
+                          where = Institution, 
+                          with = Location, 
+                          why,
+                          .protect = FALSE)
+```
+
+
+# Professional Appointments
+
+
+```{r work}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit#gid=161085706") %>%
+tidyr::fill(-why) %>%
+  vitae::detailed_entries(what = title,
+                          when = date,
+                          where = institution,
+                          with = location,
+                          why = why,
+                          .protect = FALSE)
+```
+
+# Publications
+
+## Peer Reviewed Journal Articles
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r peerreviewed, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=0") %>%
+  filter(category == "peer-reviewed") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> peer
+  cat(paste(peer), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+## Pre-Prints and Unpublished Manuscripts
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r preprint, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=1558956454") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> preprints
+  cat(paste(preprints), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+## Technical Reports
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r techreports, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=1473597883") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> tr
+  cat(paste(tr), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+# Conference Papers and Presentations
+
+## International/National Conferences
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+
+```{r intlconf, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=318960497") %>%
+  filter(category == "intl") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> intl
+  cat(paste(intl), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+## Invited Talks
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r invited, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=318960497") %>%
+  filter(category == "invited") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> invited
+  cat(paste(invited), sep = '\n\n')
+
+```
+
+
+\endgroup
+\leavevmode\newline
+
+## Professional Workshops, Webinars, and Trainings
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r workshops, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=318960497") %>%
+  filter(category == "workshops") %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> workshops
+  cat(paste(workshops), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+# Teaching Experience
+
+## Part-Time Experience
+
+```{r teaching-experience}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=802976282") %>%
+  filter(category=="teaching") %>%
+  select(-category) %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(where = title, when = dates, what = school, with = location, details)
+```
+
+
+## Other Teaching Experience
+
+```{r other-teaching-experience}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=802976282") %>%
+  filter(category=="other teaching") %>%
+  select(-category) %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(where = title, when = dates, what = school, with = location, details)
+```
+
+# Awards and Honors
+
+```{r award}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=1320047315") %>%
+  tidyr::fill(-details) %>%
+  vitae::detailed_entries(where = organization,
+                          when = date,
+                          what = award_name,
+                          with = details)
+```
+
+# Skills
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+```{r skills, message=FALSE, warning=FALSE}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit#gid=419644143") %>%
+  mutate(category = ifelse(is.na(category), " ", category),
+         details = ifelse(is.na(details), " ", details
+         )) %>%
+  knitr::kable(format = "latex", col.names = NULL, align=c("l","l"), booktabs = T, longtable = T, linesep = "", 
+  ) %>%
+    kableExtra::kable_styling(
+      position = "left",
+      latex_options = c("striped", "repeat_header"),
+      stripe_color = "gray!15"
+    ) %>%
+  kableExtra::row_spec(row=2, extra_latex_after = "\\arrayrulecolor{white}") %>%
+  kableExtra::column_spec(column = 1, bold = T, width="2in") %>%
+  kableExtra::column_spec(column = 2, width = "4.5in")
+```
+
+\endgroup
+\leavevmode\newline
+
+# Memberships
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\vspace{3mm} 
+
+```{r results='asis'}
+membership <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=1398743395") %>%
+    pull(organization)
+  cat(paste('-', membership), sep = '\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+# Notes
+
+This CV is reproducible. All the source code behind this CV is available on \href{https://github.com/seanclancy/CV}{my GitHub repo}.
