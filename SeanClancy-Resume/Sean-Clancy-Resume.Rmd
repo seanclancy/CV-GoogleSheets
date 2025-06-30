@@ -1,0 +1,219 @@
+---
+graphics: yes
+name: Sean Owen
+surname: Clancy, Ph.D.
+headcolor: 01416f
+position: "Leader, Scientist, Developer"
+#aboutme: "Leader, Scientist, Developer"
+address: United States
+www: www.seanclancy.org
+#www: profiles.faculty.utah.edu/u6013138
+email: "me@seanclancy.org"
+#twitter: seanclancy
+github: seanclancy
+linkedin: seanclancy
+orcid: 0000-0002-3560-1469
+#scholar: l9IWAtIAAAAJ
+date: "`r format(Sys.time(), '%B %Y')`"
+docname: Resume
+output: vitae::hyndman
+header-includes:
+  - \usepackage[depth=2]{bookmark}
+  - \definecolor{linkscolor}{HTML}{01416f}
+  - \usepackage{caption}
+  - \usepackage{hyperref}
+  - \usepackage{colortbl}
+  - \arrayrulecolor{white}
+  - \hyphenpenalty=10000
+  - \exhyphenpenalty=10000
+  - \hypersetup{colorlinks=true, linkcolor=linkscolor, filecolor=linkscolor, urlcolor=linkscolor, urlbordercolor=linkscolor}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(gsheet)
+library(gt)
+library(flextable)
+```
+
+# Profile
+
+- \textbf{Engineering, Laboratory, Personnel, Project, and Program Management:} Experienced leader, people manager, and scientist with a strong background in data and instrumental analysis, materials science and engineering, and product and process creation, while leveraging expertise in interdepartmental communication, data-driven decisions, and problem-solving.
+- \textbf{Applied Research and Engineering Development:} Developed materials for a wide range of applications. Materials and equipment selection, process development, experimental design, failure analysis, and characterization for reliability enhancement and risk reduction. Fixture and tooling design with rapid prototyping using additive manufacturing (3D printing), laser cutting, and machining.
+
+# Employment History and Work Experience
+
+```{r work, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1&gid=930927062#gid=930927062") %>%
+  dplyr::filter(key == 1) %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what,
+                          when,
+                          where,
+                          with,
+                          why,
+                          .protect = FALSE)
+```
+
+# Academic Qualifications and Education
+
+```{r education, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit#gid=1760172285") %>%
+  dplyr::filter(key == 1) %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what,
+                          when,
+                          where, 
+                          with, 
+                          why,
+                          .protect = FALSE)
+```
+
+# Selected Publications
+
+## Refereed Journal Papers
+
+\begingroup
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+
+```{r peerreviewed, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=0") %>%
+  filter(category == "peer-reviewed") %>%
+  #dplyr::filter(key == 1) %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> peerreviewed
+  cat(paste(peerreviewed), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+## Patents
+
+\begingroup
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+
+```{r patents, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=1473597883") %>%
+  filter(category == "patent") %>%
+  #dplyr::filter(key == 1) %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> patents
+  cat(paste(patents), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+<!--
+## Patent Applications
+
+\begingroup
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+
+```{r patentapplications, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=1473597883") %>%
+  filter(category == "patent-application") %>%
+  dplyr::filter(key == 1) %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> patentapplications
+  cat(paste(patentapplications), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+-->
+
+## Book
+
+\begingroup
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+
+```{r book, results='asis'}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=1473597883") %>%
+  filter(category == "book") %>%
+  dplyr::filter(key == 1) %>%
+  select(markdown) %>%
+  mutate(markdown = str_replace_all(markdown, "\\{|\\}", ""),
+         markdown = str_replace_all(markdown, "Clancy, S.", "**Clancy, S.**")) %>%
+  pull(markdown) -> book
+  cat(paste(book), sep = '\n\n')
+
+```
+
+\endgroup
+\leavevmode\newline
+
+# Awards and Honors
+
+\begingroup
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+
+```{r award}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?pli=1#gid=1320047315") %>%
+  dplyr::filter(key == 1) %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what,
+                          when,
+                          where,
+                          with)
+```
+
+\endgroup
+\leavevmode\newline
+
+# Selected Skills
+
+\begingroup
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+
+```{r skills, message=FALSE, warning=FALSE}
+gsheet2tbl("https://docs.google.com/spreadsheets/d/1iwBWh1LUKUks0MBuS7vU8L0m35Qv70sb3Aa-84ybYBo/edit?gid=885656894#gid=885656894") %>%
+  mutate(category = ifelse(is.na(category), " ", category),
+         details = ifelse(is.na(details), " ", details
+         )) %>%
+  knitr::kable(format = "latex", col.names = NULL, align=c("l","l"), booktabs = T, longtable = T, linesep = "", 
+  ) %>%
+    kableExtra::kable_styling(
+      position = "left",
+      latex_options = c("striped", "repeat_header"),
+      stripe_color = "gray!15"
+    ) %>%
+  kableExtra::row_spec(row=2, extra_latex_after = "\\arrayrulecolor{white}") %>%
+  kableExtra::column_spec(column = 1, bold = T, width="2in") %>%
+  kableExtra::column_spec(column = 2, width = "4.5in")
+
+```
+\endgroup
+\leavevmode\newline
+
+# Notes
+
+\vspace{3mm} 
+
+\begingroup
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+
+This CV is reproducible. All the source code behind this CV is available on \href{https://github.com/seanclancy/CV-GoogleSheets}{my GitHub repo}.
+
+\endgroup
+\leavevmode\newline

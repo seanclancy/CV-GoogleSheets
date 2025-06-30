@@ -1,7 +1,6 @@
 %% Template for a CV
 %% Author: Rob J Hyndman
-
-\documentclass[$if(fontsize)$$fontsize$$else$10pt$endif$,$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$$else$a4paper$endif$,$for(classoption)$$classoption$$sep$,$endfor$]{article}
+\documentclass[letterpaper]{article}\documentclass[$if(fontsize)$$fontsize$$else$10pt$endif$,$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$$else$a4paper$endif$,$for(classoption)$$classoption$$sep$,$endfor$]{article}
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
@@ -72,8 +71,10 @@ $endif$
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $else$
-\usepackage{geometry}
-\geometry{left=1.75cm,right=1.75cm,top=2.2cm,bottom=2cm}
+%\usepackage{geometry}
+\usepackage[text={7in,10in},centering]{geometry}.
+%\geometry{left=1.75cm,right=1.75cm,top=2.2cm,bottom=2cm}
+\geometry{left=0.5in,right=0.5in,top=0.5in,bottom=0.5in}
 $endif$
 
 $if(listings)$
@@ -114,7 +115,8 @@ $else$
 \usepackage{parskip}
 }{% else
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parskip}{2pt plus 1pt minus 0pt}
 }
 $endif$
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
@@ -181,7 +183,7 @@ $endfor$
 % Header and footer
 \pagestyle{fancy}
 \makeatletter
-\lhead{\sf\textcolor[gray]{0.4}{$if(docname)$$docname$$else$Resume$endif$: \@name}}
+\lhead{\sf\textcolor[gray]{0.4}{$if(docname)$$docname$$else$Curriculum Vitae$endif$: \@name}}
 \rhead{\sf\textcolor[gray]{0.4}{\thepage}}
 \cfoot{}
 \def\headrule{{\color[gray]{0.4}\hrule\@height\headrulewidth\@width\headwidth \vskip-\headrulewidth}}
@@ -203,13 +205,13 @@ $endfor$
 \makeatletter
 \def\maketitle{
 \thispagestyle{plain}
-\vspace*{-1.4cm}
+%\vspace*{-1.0cm}
 \shadebox[0.9]{\headerboxwidth}{\sf\color{headcolor}\hfil
 \hbox to 0.98\textwidth{\begin{tabular}{l}
 \\[-0.3cm]
 \LARGE\textbf{\@name}
 $if(position)$\\[0.1cm]\large $position$\\[0.6cm]$else$\\[0.7cm]$endif$
-\normalsize\textbf{$if(docname)$$docname$$else$Resume$endif$}\\
+\normalsize\textbf{$if(docname)$$docname$$else$Curriculum Vitae$endif$}\\
 \normalsize $if(date)$$date$$else$\today$endif$
 \end{tabular}
 \hfill\hbox{\fontsize{9}{12}\sf
@@ -217,20 +219,31 @@ $if(position)$\\[0.1cm]\large $position$\\[0.6cm]$else$\\[0.7cm]$endif$
 \@info
 \end{tabular}}}\hfil
 }
-\vspace*{0.2cm}}
+%\vspace*{0.2cm}}
 \makeatother
 
 % Section headings
 \titlelabel{}
-\titlespacing{\section}{0pt}{1.5ex}{0.5ex}
-\titleformat*{\section}{\color{headcolor}\large\sf\bfseries}
-\titleformat*{\subsection}{\color{headcolor}\sf\bfseries}
-\titlespacing{\subsection}{0pt}{1ex}{0.5ex}
+%\titlespacing{\section}{0pt}{1.2ex}{0.5ex}
+%\titlespacing{\section}{0pt}{-\parskip}{0pt}
+%\titlespacing{\section}{0pt}{-\parskip*2}{0pt}
+%\titleformat*{\section}{\color{headcolor}\large\sf\bfseries}
+%\titleformat*{\subsection}{\color{headcolor}\sf\bfseries}
+%\titlespacing{\subsection}{0pt}{1ex}{0.5ex}
+% \titlespacing{\section}{0pt}{0ex}{0ex}
+% \titlespacing{\subsection}{0pt}{0ex}{0ex}
+% \titlespacing{\subsubsection}{0pt}{0ex}{0ex}
+\titlespacing{\section}{0pt}{2.5mm}{0mm}
+\titlespacing{\subsection}{0pt}{2mm}{0mm}
+\titlespacing{\subsubsection}{0pt}{1mm}{0mm}
 
 % Miscellaneous dimensions
-\setlength{\parskip}{0ex}
-\setlength{\parindent}{0em}
-\setlength{\headheight}{15pt}
+%\setlength{\parskip}{0ex}
+\setlength{\parskip}{0cm}
+%\setlength{\parindent}{0em}
+\setlength{\parindent}{1em}
+%\setlength{\headheight}{15pt}
+\setlength{\headheight}{10pt}
 \setlength{\tabcolsep}{0.15cm}
 \clubpenalty = 10000
 \widowpenalty = 10000
@@ -256,7 +269,6 @@ $if(linkedin)$\faIcon{linkedin} & \href{https://www.linkedin.com/in/$linkedin$}{
 $if(scholar)$\faIcon{google} & \href{https://scholar.google.com/citations?user=$scholar$}{$scholar$}\\$endif$%
 $if(orcid)$\faIcon{orcid} & \href{https://orcid.org/$orcid$}{$orcid$}\\$endif$%
 }
-
 
 %\usepackage{inconsolata}
 
@@ -286,7 +298,7 @@ $endif$
 \usepackage{calc}
 \newcommand{\CSLBlock}[1]{#1\hfill\break}
 \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\hfill #1~}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \cslhangindent - \csllabelwidth}{#1}\vspace{0.8ex}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \cslhangindent - \csllabelwidth}{#1}\vspace{0.4ex}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 

@@ -2,7 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
-.bat
-old/
-untitled/
-Blog Example/
+.DS_Store
+**/.DS_Store
+**/.Rproj.user
+**/.Rhistory
+**/.RData
+**/.Ruserdata

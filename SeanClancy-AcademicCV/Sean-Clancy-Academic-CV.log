@@ -1,0 +1,1811 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.28)  30 JUN 2025 14:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Sean-Clancy-Academic-CV.tex
+(./Sean-Clancy-Academic-CV.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+(c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (c:/texlive/2025/texmf-dist/tex/latex/dejavu/DejaVuSansMono.sty
+Package: DejaVuSansMono 2011/06/01 Style file for DejaVuSansMono.
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)) (c:/texlive/2025/texmf-dist/tex/latex/carlito/carlito.sty
+Package: carlito 2022/10/05 (Bob Tennent) Supports Carlito fonts for LaTeX, pdf
+LaTeX, luaLaTeX and xeLaTeX.
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)) (c:/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (c:/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2025/te
+xmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count283
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+) (c:/texlive/2025/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2025-05-24 v2.0.1 Font selection axes (deprecated)
+(c:/texlive/2025/texmf-dist/tex/latex/figureversions/figureversions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
+))) (c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+) (c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/20
+25/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 762.
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/texlive/2025/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+Crlt-TLF on input li
+ne 116.
+(c:/texlive/2025/texmf-dist/tex/latex/carlito/T1Crlt-TLF.fd
+File: T1Crlt-TLF.fd 2022/10/05 (autoinst) Font definitions for T1/Crlt-TLF.
+)) (c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+) (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+) (c:/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
+(c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count284
+)
+\MT@toks=\toks22
+\MT@tempbox=\box53
+\MT@count=\count285
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks23
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen149
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count286
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip51
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (c:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-06-21 v7.01n Hypertext links for LaTeX
+(c:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (c:/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+(c:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+(c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count287
+) (c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-06-21 v7.01n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count290
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-06-21 v7.01n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4052.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count291
+(c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4787.
+\XeTeXLinkMargin=\dimen151
+(c:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(c:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count292
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6066.
+Package hyperref Info: Link nesting OFF on input line 6071.
+Package hyperref Info: Hyper index ON on input line 6074.
+Package hyperref Info: backreferencing OFF on input line 6081.
+Package hyperref Info: Link coloring OFF on input line 6086.
+Package hyperref Info: Link coloring with OCG OFF on input line 6091.
+Package hyperref Info: PDF/A mode OFF on input line 6096.
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2025-06-21 v7.01n Hyperref driver for pdfTeX
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
+(c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+(c:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip52
+) (c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count298
+\Gm@cntv=\count299
+\c@Gm@tempcnt=\count300
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks24
+) (c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count301
+\LTcapwidth=\dimen162
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@gbox=\box58
+\LT@cols=\count302
+\LT@rows=\count303
+\c@LT@tables=\count304
+\c@LT@chunks=\count305
+\LT@p@ftn=\toks25
+) (c:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count306
+\@cmidlb=\count307
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count308
+\@lastruleclass=\count309
+\@thisrulewidth=\dimen175
+) (c:/texlive/2025/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box59
+\fn@width=\dimen176
+) (c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
+) (c:/texlive/2025/texmf-dist/tex/latex/grffile/grffile.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
+) (c:/texlive/2025/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+) (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+(c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count310
+)) (c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+(c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen179
+\captionmargin=\dimen180
+\caption@leftmargin=\dimen181
+\caption@rightmargin=\dimen182
+\caption@width=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count311
+\c@continuedfloat=\count312
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (c:/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen187
+\ar@mcellbox=\box60
+\extrarowheight=\dimen188
+\NC@list=\toks26
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box61
+)
+\everycr=\toks27
+\minrowclearance=\skip59
+\rownum=\count313
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 82.
+(c:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count314
+\multirow@dima=\skip61
+\bigstrutjot=\dimen189
+) (c:/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen190
+\WF@size=\dimen191
+\c@WF@wrappedlines=\count315
+\WF@box=\box62
+\WF@everypar=\toks28
+Package: wrapfig 2003/01/31  v 3.6
+) (c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count316
+\float@exts=\toks29
+\float@box=\box63
+\@float@everytoks=\toks30
+\@floatcapt=\box64
+) (c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
+(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PD
+F (HO)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (c:/texlive/2025/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+(c:/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box65
+\sift@deathcycles=\count317
+\@vwid@loff=\dimen192
+\@vwid@roff=\dimen193
+)
+==> First Aid for varwidth.sty applied!
+\c@taburow=\count318
+\tabu@nbcols=\count319
+\tabu@cnt=\count320
+\tabu@Xcol=\count321
+\tabu@alloc=\count322
+\tabu@nested=\count323
+\tabu@target=\dimen194
+\tabu@spreadtarget=\dimen195
+\tabu@naturalX=\dimen196
+\tabucolX=\dimen197
+\tabu@Xsum=\dimen198
+\extrarowdepth=\dimen199
+\abovetabulinesep=\dimen256
+\belowtabulinesep=\dimen257
+\tabustrutrule=\dimen258
+\tabu@thebody=\toks31
+\tabu@footnotes=\toks32
+\tabu@box=\box66
+\tabu@arstrutbox=\box67
+\tabu@hleads=\box68
+\tabu@vleads=\box69
+\tabu@cellskip=\skip62
+) (c:/texlive/2025/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box70
+) (c:/texlive/2025/texmf-dist/tex/latex/threeparttablex/threeparttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+(c:/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(c:/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks33
+)
+\TPTL@width=\skip63
+) (c:/texlive/2025/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box71
+\UL@hyphenbox=\box72
+\UL@skip=\skip64
+\UL@hook=\toks34
+\UL@height=\dimen259
+\UL@pe=\count324
+\UL@pixel=\dimen260
+\ULC@box=\box73
+Package: ulem 2019/11/18
+\ULdepth=\dimen261
+) (c:/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen262
+\c@nlinenum=\count325
+\TeXr@lab=\toks35
+) (c:/texlive/2025/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip65
+\plpartopsep=\skip66
+\plitemsep=\skip67
+\plparsep=\skip68
+\pl@lab=\toks36
+) (c:/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip69
+\RaggedLeftLeftskip=\skip70
+\RaggedRightLeftskip=\skip71
+\CenteringRightskip=\skip72
+\RaggedLeftRightskip=\skip73
+\RaggedRightRightskip=\skip74
+\CenteringParfillskip=\skip75
+\RaggedLeftParfillskip=\skip76
+\RaggedRightParfillskip=\skip77
+\JustifyingParfillskip=\skip78
+\CenteringParindent=\skip79
+\RaggedLeftParindent=\skip80
+\RaggedRightParindent=\skip81
+\JustifyingParindent=\skip82
+) (c:/texlive/2025/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+(c:/texlive/2025/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2025/02/09 v3.10 Displaying the values of LaTeX counters (NT,
+VB,NE)
+(c:/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2025/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+(c:/texlive/2025/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count326
+)) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks37
+\ex@=\dimen263
+)
+\c@padzeroesN=\count327
+\fc@tmpcatcode=\count328
+\@DT@modctr=\count329
+\@ordinalctr=\count330
+\@orgargctr=\count331
+\@strctr=\count332
+\@tmpstrctr=\count333
+\@DT@loopN=\count334
+\@DT@X=\count335
+) (c:/texlive/2025/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count336
+\@month=\count337
+\@year=\count338
+\c@HOUR=\count339
+\c@HOURXII=\count340
+\c@MINUTE=\count341
+\c@TOHOUR=\count342
+\c@TOMINUTE=\count343
+\c@SECOND=\count344
+\currenthour=\count345
+\currentminute=\count346
+\currentsecond=\count347
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count348
+\dayofyear=\count349
+\dayofweek=\count350
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks38
+\dt@b=\toks39
+) (c:/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip83
+\f@nch@offset@elh=\skip84
+\f@nch@offset@erh=\skip85
+\f@nch@offset@olh=\skip86
+\f@nch@offset@orh=\skip87
+\f@nch@offset@elf=\skip88
+\f@nch@offset@erf=\skip89
+\f@nch@offset@olf=\skip90
+\f@nch@offset@orf=\skip91
+\f@nch@height=\skip92
+\f@nch@footalignment=\skip93
+\f@nch@widthL=\skip94
+\f@nch@widthC=\skip95
+\f@nch@widthR=\skip96
+\@temptokenb=\toks40
+) (c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip97
+\enit@outerparindent=\dimen264
+\enit@toks=\toks41
+\enit@inbox=\box74
+\enit@count@id=\count351
+\enitdp@description=\count352
+) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (c:/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box75
+\beforetitleunit=\skip98
+\aftertitleunit=\skip99
+\ttl@plus=\dimen265
+\ttl@minus=\dimen266
+\ttl@toksa=\toks42
+\titlewidth=\dimen267
+\titlewidthlast=\dimen268
+\titlewidthfirst=\dimen269
+) (c:/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen270
+\TX@old@table=\dimen271
+\TX@old@col=\dimen272
+\TX@target=\dimen273
+\TX@delta=\dimen274
+\TX@cols=\count353
+\TX@ftn=\toks43
+) (c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count354
+\calc@Bcount=\count355
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
+\calc@Askip=\skip100
+\calc@Bskip=\skip101
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count356
+\calc@Cskip=\skip102
+)
+\headerboxwidth=\skip103
+(c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty (c:/texlive
+/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-06-09 L3 programming layer (loader) 
+(c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count357
+))
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+(c:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+(c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.
+sty
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
+tawesome5
+(c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))) 
+(./Sean-Clancy-Academic-CV.aux)
+\openout1 = `Sean-Clancy-Academic-CV.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+\c@mv@tabular=\count358
+\c@mv@boldtabular=\count359
+(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count360
+\scratchdimen=\dimen277
+\scratchbox=\box76
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen278
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks45
+) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+(c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen279
+\MT@vwid@rightmargin=\dimen280
+LaTeX Info: Redefining \microtypecontext on input line 200.
+Package microtype Info: Applying patch `item' on input line 200.
+Package microtype Info: Applying patch `toc' on input line 200.
+Package microtype Info: Applying patch `eqnum' on input line 200.
+Package microtype Info: Applying patch `footnote' on input line 200.
+Package microtype Info: Applying patch `verbatim' on input line 200.
+LaTeX Info: Redefining \microtypesetup on input line 200.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+
+LaTeX Warning: Command \showhyphens   has changed.
+               Check if current package is valid.
+
+LaTeX Info: Redefining \showhyphens on input line 200.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Crlt-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 200.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(49.79231pt, 497.92325pt, 49.79231pt)
+* v-part:(T,H,B)=(62.59596pt, 725.54538pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92325pt
+* \textheight=725.54538pt
+* \oddsidemargin=-22.47768pt
+* \evensidemargin=-22.47768pt
+* \topmargin=-46.67403pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(c:/texlive/2025/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+) (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 201.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 201.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 201.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 201.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 201.
+(c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 201.
+(c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 201.
+(c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 201.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
+ input line 201.
+(c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
+n input line 201.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 201--202
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[]\T1/Crlt-TLF/m/n/10 (+20) Concentration: Charge Stor-age De-vices (Su-per-ca-
+pac-i-tors), Or-ganic Syn-the-sis,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[]\T1/Crlt-TLF/m/n/10 (+20) Advisor: David Irvin, Ph.D., Chem-istry and Ma-te-r
+i-als Di-vi-sion, Poly-mer Sci-ence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[]\T1/Crlt-TLF/m/n/10 (+20) Concentration: Light-Emitting Ma-te-ri-als, Or-gani
+c Syn-the-sis, Poly-mer Sci-ence,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[]\T1/Crlt-TLF/m/n/10 (+20) Dissertation: [][]De-sign and syn-the-ses of poly-m
+eric ma-te-ri-als for vis-i-ble and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[]\T1/Crlt-TLF/m/n/10 (+20) Advisor: Aaron Harper, Ph.D., De-part-ment of Chem-
+istry and the Loker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]\T1/Crlt-TLF/m/n/10 (+20) Concentration: Flow In-jec-tion Anal-y-sis (FIA), I
+n-stru-men-tal Anal-y-sis, Or-ganic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+\T1/Crlt-TLF/m/n/10 (+20) with Ad-vanced Place-ment (AP), Hon-ors, In-ter-na-ti
+onal Bac-calau-re-ate (IB), and
+ []
+
+
+
+[1
+
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/
+texmf-dist/fonts/enc/dvips/carlito/crlt_txfnxl.enc}{c:/texlive/2025/texmf-dist/
+fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2025/texmf-dist/fonts/enc
+/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fo
+ntawesome5/fa5brands0.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontaweso
+me5/fa5brands1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+[]\T1/Crlt-TLF/b/n/10 (+20) Use knowl-edge of cur-rent in-dus-try trends and ex
+-pe-ri-ence \T1/Crlt-TLF/m/n/10 (+20) as an ad-vi-sor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+\T1/Crlt-TLF/m/n/10 (+20) to fac-ulty, stu-dents, and the Ma-te-ri-als Char-ac-
+ter-i-za-tion Lab (MCL) in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]\T1/Crlt-TLF/m/n/10 (+20) From the Mar-ket-ing, Sales, and Tech-nol-ogy group
+s, \T1/Crlt-TLF/b/n/10 (+20) demon-strate ex-cel-lent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/b/n/10 (+20) team-work and col-lab-o-ra-tion skills \T1/Crlt-TLF/m
+/n/10 (+20) by \T1/Crlt-TLF/b/n/10 (+20) man-ag-ing cross-departmental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/b/n/10 (+20) tech-nol-ogy de-vel-op-ment and multi-national man-u-
+fac-tur-ing projects \T1/Crlt-TLF/m/n/10 (+20) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/m/n/10 (+20) Pro-duc-tion, En-gi-neer-ing, Qual-ity, and Tech-nol-
+ogy de-part-ments for \T1/Crlt-TLF/b/n/10 (+20) driv-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/b/n/10 (+20) pro-cess en-hance-ments and yield im-prove-ments \T1/
+Crlt-TLF/m/n/10 (+20) for bar-rier and func-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/m/n/10 (+20) coat-ings for elec-tronic as-sem-blies, wafer-level a
+nd pack-aged com-po-nents,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]\T1/Crlt-TLF/m/n/10 (+20) Optimize Chem-i-cal Va-por De-po-si-tion (CVD) coat
+-ing pro-cesses us-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/b/n/10 (+20) Computer-Aided De-sign (CAD) of baf-fles, fix-tures, 
+jigs, and tool-ing\T1/Crlt-TLF/m/n/10 (+20) , which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/m/n/10 (+20) im-proved fluid/vapor flow be-hav-ior, thick-ness uni
+-for-mity, and coat-ing qual-ity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/m/n/10 (+8) as well as \T1/Crlt-TLF/b/n/10 (+8) De-sign of Ex-per-
+i-ments (DoE) and sta-tis-ti-cal anal-y-sis meth-ods\T1/Crlt-TLF/m/n/10 (+8) , 
+which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/m/n/10 (+20) re-sulted in a sig-nif-i-cant re-duc-tion in pro-cess
+ time and in-creased pre-cur-sor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]\T1/Crlt-TLF/b/n/10 (+20) Support man-u-fac-tur-ing en-gi-neers with sub-ject
+ mat-ter ex-per-tise (SME) for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]\T1/Crlt-TLF/b/n/10 (+20) Present tech-ni-cal data to in-ter-nal man-age-ment
+, po-ten-tial and ex-ist-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/b/n/10 (+20) cus-tomers, and di-verse ex-ter-nal au-di-ences\T1/Cr
+lt-TLF/m/n/10 (+20) , in ad-di-tion to \T1/Crlt-TLF/b/n/10 (+20) rep-re-sent th
+e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/b/n/10 (+20) com-pany across mul-ti-ple plat-forms \T1/Crlt-TLF/m/
+n/10 (+20) with tech-ni-cal pub-li-ca-tions, con-fer-ence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/m/n/10 (+20) de-vel-op-ment com-mit-tees for the IPC elec-tron-ics
+ man-u-fac-tur-ing trade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]\T1/Crlt-TLF/b/n/10 (+20) Wrote cus-tom Ex-cel VBA macros to re-duce the anal
+-y-sis and re-port-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/b/n/10 (+20) time from hours to less than five min-utes for gen-er
+-at-ing mul-ti-ple
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/b/n/10 (+20) publication-ready, time se-ries pro-cess charts, \T1/
+Crlt-TLF/m/it/10 (+20) Trained oth-ers to use these
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/m/it/10 (+20) macros for coat-ing sys-tems in-stalled across North
+ Amer-ica and Asia, which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/Crlt-TLF/m/it/10 (+20) has also led to sig-nif-i-cant time re-duc-tions in 
+trou-bleshoot-ing equip-ment and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]\T1/Crlt-TLF/b/n/10 (+20) Lead a team of in-terns, en-gi-neers, sci-en-tists,
+ and tech-ni-cians with tasks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+[]\T1/Crlt-TLF/m/n/10 (+20) From the Mar-ket-ing, Sales, and Tech-nol-ogy group
+s, \T1/Crlt-TLF/b/n/10 (+20) demon-strate ex-cel-lent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\T1/Crlt-TLF/b/n/10 (+20) team-work and col-lab-o-ra-tion skills \T1/Crlt-TLF/m
+/n/10 (+20) by \T1/Crlt-TLF/b/n/10 (+20) man-ag-ing cross-departmental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\T1/Crlt-TLF/b/n/10 (+20) tech-nol-ogy de-vel-op-ment and multi-national man-u-
+fac-tur-ing projects \T1/Crlt-TLF/m/n/10 (+20) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\T1/Crlt-TLF/m/n/10 (+20) Pro-duc-tion, En-gi-neer-ing, Qual-ity, and Tech-nol-
+ogy de-part-ments for \T1/Crlt-TLF/b/n/10 (+20) driv-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\T1/Crlt-TLF/b/n/10 (+20) pro-cess en-hance-ments and yield im-prove-ments \T1/
+Crlt-TLF/m/n/10 (+20) for bar-rier and func-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]\T1/Crlt-TLF/m/n/10 (+20) From the Tech-nol-ogy group, \T1/Crlt-TLF/b/n/10 (+
+20) man-aged and an-a-lyzed coat-ing equip-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+\T1/Crlt-TLF/b/n/10 (+20) pro-cess and ma-te-ri-als prop-er-ties and per-for-ma
+nce\T1/Crlt-TLF/m/n/10 (+20) , as well as re-li-a-bil-ity and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+\T1/Crlt-TLF/m/n/10 (+2) qual-i-fi-ca-tion test-ing ac-cord-ing to in-dus-try s
+tan-dards, along with pro-pri-etary and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+[]\T1/Crlt-TLF/b/n/10 (+20) Developed fun-da-men-tal knowl-edge and prac-ti-cal
+ ex-per-tise for trans-fer-ring
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+\T1/Crlt-TLF/b/n/10 (+20) ^^Plessons learned^^Q from R&D to Pro-duc-tion across
+ mul-ti-ple sites \T1/Crlt-TLF/m/n/10 (+20) for coat-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+\T1/Crlt-TLF/m/n/10 (+20) de-po-si-tion and sup-ple-men-tal pro-cesses that \T1
+/Crlt-TLF/b/n/10 (+20) led to over 100M+ parts coated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+[]\T1/Crlt-TLF/b/n/10 (+20) Generated and pre-sented tech-ni-cal data to in-ter
+-nal man-age-ment, po-ten-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+\T1/Crlt-TLF/b/n/10 (+20) and ex-ist-ing cus-tomers, and di-verse ex-ter-nal au
+-di-ences\T1/Crlt-TLF/m/n/10 (+20) , in ad-di-tion to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+\T1/Crlt-TLF/b/n/10 (+20) rep-re-sent the com-pany across mul-ti-ple plat-forms
+ \T1/Crlt-TLF/m/n/10 (+20) with tech-ni-cal pub-li-ca-tions,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+\T1/Crlt-TLF/m/n/10 (+1) con-fer-ence pre-sen-ta-tions, we-bi-nars, as an in-vi
+ted pod-cast guest, and serv-ing on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+\T1/Crlt-TLF/m/n/10 (+20) stu-dents as the MCL staff for anal-y-sis on projects
+ for cross-departmental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+\T1/Crlt-TLF/m/n/10 (+20) by de-liv-er-ing brochures, an up-dated web-site, sli
+deshows, out-reach pro-grams,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]\T1/Crlt-TLF/b/n/10 (+20) Excellent re-la-tion-ship builder and in-no-va-tor 
+\T1/Crlt-TLF/m/n/10 (+20) with ex-per-tise in STEAM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\T1/Crlt-TLF/m/n/10 (+20) fields (sci-ence, tech-nol-ogy, en-gi-neer-ing, arts,
+ and math-e-mat-ics), \T1/Crlt-TLF/b/n/10 (+20) de-liv-er-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\T1/Crlt-TLF/b/n/10 (+20) con-sult-ing ser-vices with prac-ti-cal so-lu-tions t
+o de-vel-op-ment, man-u-fac-tur-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\T1/Crlt-TLF/b/n/10 (+20) and pro-cess is-sues\T1/Crlt-TLF/m/n/10 (+20) , as we
+ll as \T1/Crlt-TLF/b/n/10 (+20) ad-vice, in-stru-men-tal anal-y-sis, and train-
+ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]\T1/Crlt-TLF/b/n/10 (+2) Excellent team-work and col-lab-o-ra-tion skills \T1
+/Crlt-TLF/m/n/10 (+2) il-lus-trated by \T1/Crlt-TLF/b/n/10 (+2) man-ag-ing high
+-value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) projects in elec-tron-ics man-u-fac-tur-ing through m
+any aerospace in-dus-try
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) clients in an ISO 9001 Qual-ity Sys-tem reg-is-tered 
+fa-cil-ity\T1/Crlt-TLF/m/n/10 (+20) , and ac-cord-ing to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]\T1/Crlt-TLF/b/n/10 (+20) Knowledge of root cause fail-ure anal-y-sis and ma-
+te-ri-als char-ac-ter-i-za-tion, as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) ev-i-denced by de-liv-ery of over 550 project re-port
+s with $1M+ in com-mer-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]\T1/Crlt-TLF/b/n/10 (+20) Experience clearly com-mu-ni-cat-ing com-plex top-i
+cs\T1/Crlt-TLF/m/n/10 (+20) , as il-lus-trated by \T1/Crlt-TLF/b/n/10 (+20) ele
+ven
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) ar-ti-cles \T1/Crlt-TLF/m/n/10 (+20) for \T1/Crlt-TLF
+/b/n/10 (+20) EMP-Fa-sis, a pub-li-ca-tion of the Elec-tron-ics Man-u-fac-tur-i
+ng
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) Pro-duc-tiv-ity Fa-cil-ity (EMPF)\T1/Crlt-TLF/m/n/10 
+(+20) , with two ar-ti-cles re-pub-lished in \T1/Crlt-TLF/b/n/10 (+20) Printed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) Cir-cuit De-sign and Fab/Circuits As-sem-bly: The Jou
+r-nal of Sur-face Mount
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) and Elec-tron-ics As-sem-bly\T1/Crlt-TLF/m/n/10 (+20)
+ ; a \T1/Crlt-TLF/b/n/10 (+20) ^^PFail-ure anal-y-sis tech-niques for elec-tron
+-ics^^Q
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) in-struc-tional and tech-ni-cal mar-ket-ing book \T1/
+Crlt-TLF/m/n/10 (+20) with a case stud-ies com-pan-ion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/m/n/10 (+20) pre-sen-ta-tion for com-mer-cial ser-vices and pro-fe
+s-sional skills train-ing courses;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/m/n/10 (+20) and \T1/Crlt-TLF/b/n/10 (+20) de-liv-ered in-struc-ti
+on for pro-fes-sional skills train-ing courses: Fail-ure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\T1/Crlt-TLF/b/n/10 (+20) Anal-y-sis and Re-li-a-bil-ity Test-ing in Elec-tron-
+ics and Elec-tron-ics Man-u-fac-tur-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+[]\T1/Crlt-TLF/b/n/10 (+20) Designed, syn-the-sized, and an-a-lyzed ma-te-ri-al
+s for func-tional coat-ings for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+\T1/Crlt-TLF/b/n/10 (+20) elec-trodes on in-te-grated cir-cuits \T1/Crlt-TLF/m/
+n/10 (+20) serv-ing as \T1/Crlt-TLF/b/n/10 (+20) elec-tro-chem-i-cal sen-sors \
+T1/Crlt-TLF/m/n/10 (+20) for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
+[]\T1/Crlt-TLF/b/n/10 (+20) Designed, syn-the-sized, and char-ac-ter-ized elect
+ron-deficient (n-type)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
+\T1/Crlt-TLF/b/n/10 (+20) het-e-ro-cyclic (nitrogen-containing) monomers and po
+ly-mers for use in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
+[]\T1/Crlt-TLF/b/n/10 (+20) Designed, syn-the-sized, and char-ac-ter-ized con-j
+u-gated poly-mers,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
+\T1/Crlt-TLF/b/n/10 (+20) metal-coordinating lig-ands, and lan-thanide com-plex
+es for light-emitting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
+\T1/Crlt-TLF/b/n/10 (+20) ap-pli-ca-tions\T1/Crlt-TLF/m/n/10 (+20) , such as or
+-ganic light-emitting diode (OLED) dis-plays, chem-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]\T1/Crlt-TLF/b/n/10 (+20) Designed, syn-the-sized, and char-ac-ter-ized con-j
+u-gated poly-mers,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+\T1/Crlt-TLF/b/n/10 (+20) metal-coordinating lig-ands, and lan-thanide com-plex
+es for light-emitting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+\T1/Crlt-TLF/b/n/10 (+20) ap-pli-ca-tions\T1/Crlt-TLF/m/n/10 (+20) , such as or
+-ganic light-emitting diode (OLED) dis-plays, chem-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+[]\T1/Crlt-TLF/b/n/10 (+20) Synthesized and char-ac-ter-ized or-ganic com-pound
+s for medic-i-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+\T1/Crlt-TLF/b/n/10 (+20) re-search \T1/Crlt-TLF/m/n/10 (+20) as di-ag-nos-tic 
+tools and ther-a-peu-tic can-di-dates for \T1/Crlt-TLF/b/n/10 (+20) mus-cu-lar 
+and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+\T1/Crlt-TLF/b/n/10 (+20) neu-rode-gen-er-a-tive dis-eases \T1/Crlt-TLF/m/n/10 
+(+20) in the form of \T1/Crlt-TLF/b/n/10 (+20) car-bo-hy-drates, amino acids,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+\T1/Crlt-TLF/b/n/10 (+20) pep-tides, monomers, and oligomers of pep-tide nu-cle
+ic acids \T1/Crlt-TLF/m/n/10 (+20) via so-lu-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+\T1/Crlt-TLF/m/n/10 (+20) or solid-phase syn-the-sis, which led to mul-ti-ple p
+ub-li-ca-tions by the pri-mary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\T1/Crlt-TLF/b/n/10 (+20) Assisted phar-ma-cists in ac-cu-rately prepar-ing m
+ed-i-ca-tions pre-scribed by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\T1/Crlt-TLF/b/n/10 (+20) health-care pro-fes-sion-als\T1/Crlt-TLF/m/n/10 (+20)
+ , along with pro-vid-ing cus-tomer ser-vice, man-ag-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\T1/Crlt-TLF/m/n/10 (+4) pay-ments, main-tain-ing in-ven-tory, com-mu-ni-cat-in
+g with in-sur-ance providers, and
+ []
+
+
+Overfull \hbox (2.33058pt too wide) in alignment at lines 328--472
+[] []
+ []
+
+[2] [3]
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]\T1/Crlt-TLF/m/n/10 (+20) Delivered in-struc-tion for a cus-tom, one day pro-
+fes-sional skills train-ing course:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+\T1/Crlt-TLF/m/n/10 (+20) Fail-ure Anal-y-sis and Re-li-a-bil-ity Test-ing in E
+lec-tron-ics with as many as 30
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+[]\T1/Crlt-TLF/m/n/10 (+20) Delivered in-struc-tion for a pro-fes-sional skills
+ train-ing course: Fail-ure Anal-y-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
+[]\T1/Crlt-TLF/m/n/10 (+20) Delivered in-struc-tion for a pro-fes-sional skills
+ train-ing course: Elec-tron-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
+\T1/Crlt-TLF/m/n/10 (+20) Man-u-fac-tur-ing Boot Camp B: Ad-vanced Elec-tron-ic
+s Man-u-fac-tur-ing with as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+[]\T1/Crlt-TLF/m/n/10 (+20) Delivered in-struc-tion for a pro-fes-sional skills
+ train-ing course: Elec-tron-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+\T1/Crlt-TLF/m/n/10 (+20) Man-u-fac-tur-ing Boot Camp A: Elec-tron-ics Man-u-fa
+c-tur-ing Pro-cesses with as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
+[]\T1/Crlt-TLF/m/n/10 (+20) Provided per-son-al-ized in-struc-tion to stu-dents
+ of un-der-grad-u-ate or-ganic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
+[]\T1/Crlt-TLF/m/n/10 (+20) Delivered in-struc-tion to mul-ti-ple lab-o-ra-tory
+ sec-tions of an un-der-grad-u-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
+[]\T1/Crlt-TLF/m/n/10 (+20) Delivered in-struc-tion to mul-ti-ple lab-o-ra-tory
+ sec-tions of an un-der-grad-u-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
+[]\T1/Crlt-TLF/m/n/10 (+20) Delivered in-struc-tion to mul-ti-ple lab-o-ra-tory
+ sec-tions of an un-der-grad-u-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
+[]\T1/Crlt-TLF/m/n/10 (+20) Delivered in-struc-tion to mul-ti-ple lab-o-ra-tory
+ sec-tions of an un-der-grad-u-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
+[]\T1/Crlt-TLF/m/n/10 (+20) Developed a fail-ure anal-y-sis and ma-te-ri-als an
+al-y-sis in-tern-ship pro-gram, but
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--632
+[]\T1/Crlt-TLF/m/n/10 (+20) Updated and con-densed the cur-ricu-lum into a cus-
+tom, one day pro-fes-sional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--642
+[]\T1/Crlt-TLF/m/n/10 (+20) Updated fail-ure anal-y-sis cur-ricu-lum for Commun
+ications-Electronics Re-search,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--642
+\T1/Crlt-TLF/m/n/10 (+20) De-vel-op-ment and En-gi-neer-ing Cen-ter (CERDEC) el
+ec-tron-ics man-u-fac-tur-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--642
+[]\T1/Crlt-TLF/m/n/10 (+2) Updated cur-ricu-lum for a pro-fes-sional skills tra
+in-ing course: Fail-ure Anal-y-sis and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--651
+[]\T1/Crlt-TLF/m/n/10 (+20) Updated cur-ricu-lum for pro-fes-sional skills trai
+n-ing course: Fail-ure Anal-y-sis and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
+[]\T1/Crlt-TLF/m/n/10 (+20) Updated cur-ricu-lum for the two part pro-fes-siona
+l skills train-ing course:
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
+[]\T1/Crlt-TLF/m/n/10 (+20) Train lab users on chem-i-cal safety and the op-er-
+a-tion of clean-li-ness test-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
+\T1/Crlt-TLF/m/n/10 (+20) con-tact an-gle mea-sure-ment sys-tems, en-vi-ron-men
+-tal cham-bers, han-dling,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
+\T1/Crlt-TLF/m/n/10 (+20) mi-cro-sec-tion-ing, mi-croscopy, root cause fail-ure
+ anal-y-sis, spec-troscopy, sam-ple
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 691--691
+[]\T1/Crlt-TLF/m/n/10 (+20) Provide guid-ance on RoHS, REACH, Cal-i-for-nia Pro
+po-si-tion 65, PFAS, PFOA, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 700--700
+[]\T1/Crlt-TLF/m/n/10 (+20) Serve as an ad-vi-sor to full-time fac-ulty, stu-de
+nts, and the Ma-te-ri-als
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 700--700
+\T1/Crlt-TLF/m/n/10 (+20) Char-ac-ter-i-za-tion Lab (MCL) in the De-part-ment o
+f Ma-te-ri-als Sci-ence and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
+[]\T1/Crlt-TLF/m/n/10 (+20) Trained stu-dents and other lab users on chem-i-cal
+ safety and the op-er-a-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
+\T1/Crlt-TLF/m/n/10 (+20) con-tact an-gle mea-sure-ment sys-tem, han-dling, mi-
+cro-sec-tion-ing, op-ti-cal and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+[]\T1/Crlt-TLF/m/n/10 (+20) Trained lab users on chem-i-cal safety and the op-e
+r-a-tion of con-tact an-gle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+\T1/Crlt-TLF/m/n/10 (+20) mea-sure-ment sys-tems, en-vi-ron-men-tal cham-bers, 
+clean-li-ness test-ing, han-dling,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+\T1/Crlt-TLF/m/n/10 (+20) mi-cro-sec-tion-ing, mi-croscopy, spec-troscopy, sam-
+ple prepa-ra-tion, and other
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+[]\T1/Crlt-TLF/m/n/10 (+20) Served as a tech-ni-cal con-sul-tant and res-i-dent
+ Sub-ject Mat-ter Ex-pert (SME) on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+\T1/Crlt-TLF/m/n/10 (+20) vac-uum de-posited and hy-brid coat-ings, as well as 
+con-ven-tional con-for-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+\T1/Crlt-TLF/m/n/10 (+20) coat-ings, elec-tron-ics man-u-fac-tur-ing ma-te-ri-a
+ls and pro-cesses, clean-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+\T1/Crlt-TLF/m/n/10 (+20) clean-li-ness test-ing, plasma treat-ment pro-cesses,
+ ad-he-sion pro-mo-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+[]\T1/Crlt-TLF/m/n/10 (+20) Presented ^^PPro-tect-ing elec-tron-ics from the de
+le-te-ri-ous ef-fects of liq-uids
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+\T1/Crlt-TLF/m/n/10 (+20) and other con-tam-i-nants at the molec-u-lar level^^Q
+ at the IPC to SMTA High to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+[]\T1/Crlt-TLF/m/n/10 (+20) Presented ^^PSur-face prepa-ra-tion is crit-i-cal f
+or con-for-mal coat-ing pro-tec-tion^^Q at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+\T1/Crlt-TLF/m/n/10 (+20) the SMTA In-ter-moun-tain Chap-ter Meet-ing in March 
+2016 with Robert ^^PDusty^^Q
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+[]\T1/Crlt-TLF/m/n/10 (+20) Wrote ^^PCom-pet-i-tive anal-y-sis of Pary-lene coa
+t-ings based on metrol-ogy^^Q that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+\T1/Crlt-TLF/m/n/10 (+20) was pub-lished in the Novem-ber 2015 is-sue of Printe
+d Cir-cuit De-sign and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 731--731
+[]\T1/Crlt-TLF/m/n/10 (+20) Initiated, de-vel-oped a pro-cess, and trained oth-
+ers on eBook pro-duc-tion and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 731--731
+\T1/Crlt-TLF/m/n/10 (+20) edit-ing; de-liv-er-ing ePub (.epub) and Mo-bipocket 
+(.mobi) ver-sions of six books
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--740
+[]\T1/Crlt-TLF/m/n/10 (+20) Trained lab users on the op-er-a-tion of chro-matog
+-ra-phy, clean-li-ness test-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--740
+\T1/Crlt-TLF/m/n/10 (+20) mi-croscopy, sol-der-abil-ity test-ing, spec-troscopy
+, sam-ple prepa-ra-tion, and other
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
+[]\T1/Crlt-TLF/m/n/10 (+20) Served as a tech-ni-cal con-sul-tant and res-i-dent
+ Sub-ject Mat-ter Ex-pert (SME) on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
+\T1/Crlt-TLF/m/n/10 (+20) top-ics re-gard-ing atomic layer de-po-si-tion (ALD);
+ con-duc-tive epox-ies, con-for-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
+\T1/Crlt-TLF/m/n/10 (+20) coat-ings, cor-ro-sion, high volt-age en-cap-su-lants
+, sen-sor net-works for en-ergy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+[]\T1/Crlt-TLF/m/n/10 (+20) Wrote eleven ar-ti-cles for EMP-Fa-sis, a pub-li-ca
+-tion of the Elec-tron-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+\T1/Crlt-TLF/m/n/10 (+20) Man-u-fac-tur-ing Pro-duc-tiv-ity Fa-cil-ity (EMPF), 
+of which two were re-pub-lished in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 767--767
+[]\T1/Crlt-TLF/b/n/10 (+20) Analytical Ser-vices Group, Elec-tron-ics Man-u-fac
+-tur-ing Pro-duc-tiv-ity Fa-cil-ity (EMPF), and Elec-tron-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 767--767
+[]\T1/Crlt-TLF/m/n/10 (+20) Wrote ^^PFail-ure anal-y-sis tech-niques for elec-t
+ron-ics^^Q in-struc-tional and tech-ni-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 767--767
+\T1/Crlt-TLF/m/n/10 (+20) mar-ket-ing book with a case stud-ies com-pan-ion pre
+-sen-ta-tion for com-mer-cial
+ []
+
+
+Overfull \hbox (2.33058pt too wide) in alignment at lines 673--786
+[] []
+ []
+
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 807--807
+[]\T1/Crlt-TLF/m/n/10 (+20) Managed an in-tern work-ing on a Pary-lene coat-ing
+ pro-cess de-vel-op-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 807--807
+\T1/Crlt-TLF/m/n/10 (+20) project from the Me-chan-i-cal En-gi-neer-ing De-part
+-ment at North Car-olina State
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+\T1/Crlt-TLF/m/n/10 (+20) from the Fiber and Poly-mer Sci-ence De-part-ment at 
+North Car-olina State
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\T1/Crlt-TLF/m/n/10 (+20) Managed a team of sum-mer in-tern-ship stu-dents wo
+rk-ing on a data anal-y-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--834
+[]\T1/Crlt-TLF/m/n/10 (+20) Managed a team of sum-mer in-tern-ship stu-dents wo
+rk-ing on a data anal-y-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 843--843
+[]\T1/Crlt-TLF/m/n/10 (+20) Managed a team of sum-mer in-tern-ship stu-dents wo
+rk-ing on a data anal-y-sis
+ []
+
+
+
+[8]
+
+[9]
+
+Package hyperref Warning: Suppressing link with empty target on input line 1200
+.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 1205
+.
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 1218--1223
+ []\T1/Crlt-TLF/m/n/10 (+20) DuBose, B. and \T1/Crlt-TLF/b/n/10 (+20) Clancy, S
+. \T1/Crlt-TLF/m/n/10 (+20) (2024, Oc-to-ber). [][]Cor-ro-sion in elec-tron-ics
+: Com-mon causes and so-lu-tions.[][] \T1/Crlt-TLF/m/it/10 (+20) ``Ma-te-ri-als
+ 
+ []
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 1263
+.
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 1266--1270
+ []\T1/Crlt-TLF/b/n/10 (+20) Clancy, S. \T1/Crlt-TLF/m/n/10 (+20) and Askin, R.
+ (2016, March). [][]Sur-face prepa-ra-tion is crit-i-cal for con-for-mal coat-i
+ng pro-tec-tion.[][] \T1/Crlt-TLF/m/it/10 (+20) SMTA 
+ []
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 1272
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1290--1290
+[]\T1/Crlt-TLF/b/n/10 (+20) Top Ba-nana Award: Awarded by the head of Mar-ket-i
+ng and Sales for suc-cess-ful progress by new
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1315
+[]\T1/Crlt-TLF/b/n/10 (+20) Invited pan-elist for nan-otech-nol-ogy health and 
+safety, Nano for Busi-ness 2010 Con-fer-ence at Lehigh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1325--1325
+\T1/Crlt-TLF/b/n/10 (+20) Grad-u-ate Fel-low-ship (2004), and Ben-son En-dowed 
+Fel-low-ship (2003 to 2005)]: Awarded for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1325--1325
+\T1/Crlt-TLF/b/n/10 (+20) suc-cess-ful progress dur-ing my grad-u-ate stud-ies 
+and work as a Grad-u-ate Re-search As-sis-tant in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1330
+[]\T1/Crlt-TLF/b/n/10 (+20) Above and Be-yond Em-ployee Recog-ni-tion: Awarded 
+for suc-cess-ful anti-sense (RNA-binding)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1330
+\T1/Crlt-TLF/b/n/10 (+20) and anti-gene (DNA-binding) ex-per-i-ments us-ing the
+ pep-tide nu-cleic acid (PNA) se-quences that I
+ []
+
+[10]
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1535
+[]\T1/Crlt-TLF/b/n/10 (+20) Advisory Coun-cil on Elec-tric Ve-hi-cle Qual-ity a
+nd Re-li-a-bil-ity (EVQR) for the Global Elec-tron-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1535
+[]\T1/Crlt-TLF/m/n/10 (+20) Serve on the IPC's V-EVQR E-Mobility Qual-ity and R
+e-li-a-bil-ity Ad-vi-sory Coun-cil
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1535
+\T1/Crlt-TLF/m/n/10 (+20) to help en-sure qual-ity, re-li-a-bil-ity, and safety
+ to grow knowl-edge and de-velop
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1535
+\T1/Crlt-TLF/m/n/10 (+7) so-lu-tions to e-MobiIity and au-to-mo-tive chal-lenge
+s and help de-liver high qual-ity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1535
+\T1/Crlt-TLF/m/n/10 (+20) high re-li-a-bil-ity elec-tronic hard-ware in bat-ter
+y man-age-ment sys-tems (BMS),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
+[]\T1/Crlt-TLF/m/n/10 Served on the Board for the Nan-otech-nol-ogy Show 2022 a
+nd pro-vided guid-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
+\T1/Crlt-TLF/m/n/10 (+20) used in coat-ings and re-lated nan-otech-nol-ogy in-d
+us-tries, along with the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
+\T1/Crlt-TLF/m/n/10 (+20) re-li-a-bil-ity and sus-tain-abil-ity for elec-tron-i
+cs and other mar-kets when us-ing
+ []
+
+
+Overfull \hbox (2.33058pt too wide) in alignment at lines 1526--1545
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+[]\T1/Crlt-TLF/m/n/10 (+20) Serve on stan-dards de-vel-op-ment com-mit-tees for
+ con-for-mal coat-ings, clean-ing
+ []
+
+
+Overfull \hbox (2.33058pt too wide) in alignment at lines 1558--1568
+[] []
+ []
+
+
+
+[12]
+
+[13]
+
+[14] (./Sean-Clancy-Academic-CV.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 21255 strings out of 469826
+ 367600 string characters out of 5483770
+ 831224 words of memory out of 5000000
+ 48988 multiletter control sequences out of 15000+600000
+ 722386 words of font info for 189 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 75i,21n,117p,1212b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/google/carlito/Crlt-Bold.pfb><c:/texl
+ive/2025/texmf-dist/fonts/type1/google/carlito/Crlt-Italic.pfb><c:/texlive/2025
+/texmf-dist/fonts/type1/google/carlito/Crlt-Regular.pfb><c:/texlive/2025/texmf-
+dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive
+/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:
+/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Sean-Clancy-Academic-CV.pdf (14 pages, 224338 bytes).
+PDF statistics:
+ 387 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 45329 words of extra memory for PDF output out of 51595 (max. 10000000)
+
